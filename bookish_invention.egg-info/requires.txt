@@ -1,0 +1,10 @@
+tkinter
+pillow
+nltk
+numpy
+translate
+re
+PyPDF2
+pytesseract
+opencv-python
+pytest
