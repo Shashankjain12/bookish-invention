@@ -45,12 +45,24 @@ For default language you can use :- Hindi/English
 *You will see the image that you are preforming the required operations. After that image is being displayed you just need to type any key to follow up further*
 
 ### After successful implementation you will see
+
+<h3 align='center'>Image</h3>
+
 ![Image](./Images/img1.png?raw=true "Image")
+
+<h3 align='center'> User Prompt </h3>
+
 ![UserPrompt](./Images/code_and_img.png?raw=true "Code")
+
+<h3 align='center'> Graph </h3>
+
 ![Graph](./Images/graph.png?raw=true "graph")
+
+<h3 align='center'> Text Generation </h3>
+ 
 ![Text Gen](./Images/text_gen.png?raw=true "text")
 
-
+### So Buckle Up Guys Your Notes For Exams Are ready 
 
 
 
