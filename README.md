@@ -20,5 +20,40 @@ This project uses the help of certain great libraries of python:-
 
 You can enjoy certain features of these vast set of features by just passing the module with the required image or pdf file and then by passing the image it will draw the graph for you and then after that we can also translate that in any other language for active understanding of that project
 
-For more information you can also see it's docs
+### How to install all required libraries?
+
+```pip install -r requirements.txt```
+
+### Code to run the required project after installing all the necessary requirements
+
+``` 
+python main.py --name_of_the_file 
+```
+
+Example:-
+
+```python main.py /directory/to/file/image.png```
+
+``` python main.py ./images_to_test.py/cool.png```
+
+### After running the code 
+
+*You will be prompted to whether you want to translate the text and the language you want to translate the text*
+
+For default language you can use :- Hindi/English
+
+*You will see the image that you are preforming the required operations. After that image is being displayed you just need to type any key to follow up further*
+
+### After successful implementation you will see
+![Image](./Images/img1.png?raw=true "Image")
+![UserPrompt](./Images/code_and_img.png?raw=true "Code")
+![Graph](./Images/graph.png?raw=true "graph")
+![Text Gen](./Images/text_gen.png?raw=true "text")
+
+
+
+
+
+
+
   
