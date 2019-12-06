@@ -46,7 +46,7 @@ class NotesCreator:
             img=cv2.imread(self.file_name)
             a=pytesseract.image_to_string(img)
             cv2.imshow('image',img)
-            cv2.waitKey(0)
+            cv2.waitKey()
             #b=a.split()
             #print(b)
             sentences=nltk.sent_tokenize(a)
@@ -88,12 +88,13 @@ class NotesCreator:
         if self.p[1]==".pdf":
             pdfFileObject = open('/home/shashank/Downloads/'+self.file_name, 'rb')
             pdfReader = PyPDF2.PdfFileReader(pdfFileObject)
+
             count = pdfReader.numPages
             sentence=[]
             word_tags=[]
             for i in range(count):
                 page = pdfReader.getPage(i)
-                #sentence.append(page.extractText().split('\n'))
+                sentence.append(page.extractText().split('\n'))
                 sentences=nltk.sent_tokenize(page.extractText())
                 for j in range(len(sentences)):
                     sentences[j]=re.sub(r"[Ò¥.@#$%^&|?!':\n\"//]"," ",sentences[j])
