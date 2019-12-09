@@ -6,4 +6,3 @@ PyPDF2
 pytesseract
 opencv-python
 pytest
-
