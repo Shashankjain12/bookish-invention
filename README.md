@@ -20,9 +20,19 @@ This project uses the help of certain great libraries of python:-
 
 You can enjoy certain features of these vast set of features by just passing the module with the required image or pdf file and then by passing the image it will draw the graph for you and then after that we can also translate that in any other language for active understanding of that project
 
-### How to install all required libraries?
+### Run
 
-```pip install -r requirements.txt```
+Download or Clone the repository
+
+`git clone https://github.com/Shashankjain12/bookish-invention.git`
+
+Enter the Repository
+
+`cd bookish-invention`
+
+#### install
+
+`bash install`
 
 ### Code to run the required project after installing all the necessary requirements
 
@@ -32,9 +42,9 @@ python main.py --name_of_the_file
 
 Example:-
 
-```python main.py /directory/to/file/image.png```
+`python main.py /directory/to/file/image.png`
 
-``` python main.py ./images_to_test.py/cool.png```
+`python main.py ./images_to_test.py/cool.png`
 
 ### After running the code 
 
