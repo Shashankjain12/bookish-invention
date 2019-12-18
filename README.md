@@ -26,9 +26,13 @@ Download or Clone the repository
 
 `git clone https://github.com/Shashankjain12/bookish-invention.git`
 
-Enter the Repository
+#### Enter the Repository
 
 `cd bookish-invention`
+
+#### Install Requirements
+
+`pip install -r requirements.txt`
 
 #### install
 
