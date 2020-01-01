@@ -21,6 +21,8 @@ from nltk.stem import WordNetLemmatizer
 from nltk.corpus import stopwords
 import PyPDF2
 from translate import Translator
+import argparse
+
 
 #l=input("Enter the language you want to convert your notes:")
 
@@ -118,6 +120,12 @@ class NotesCreator:
 
 
 if __name__=="__main__":
-    lang=input("Enter the language you want to convert in ?")
-    filename=sys.argv[1]
-    notes=NotesCreator(filename)
+	parser=argparse.ArgumentParser(description='''NLP MACHINE LEARNING PROJECT
+This project deals with creation of certain notes from a book
+This project involves one of the research work of creating a project that deals with the creation of visually interactive graphs when we pass that module any kind of notebook of any kind of image file you just need to specify the type of image you need to pass on to that document and it will do all the hard work for you by itself by creating of certain nodes with the help of one of the most advanced library of python for desktop creation using tkinter
+
+Follow the project on Github - https://github.com/Shashankjain12/bookish-invention''',formatter_class=argparse.RawTextHelpFormatter)
+	parser.add_argument('filename', type=str, help='Relative path to the image/pdf file to extract')
+	args=parser.parse_args()
+	filename = args.filename
+	notes=NotesCreator(filename)
