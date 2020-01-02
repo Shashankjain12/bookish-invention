@@ -2,9 +2,9 @@
 
 ### NLP MACHINE LEARNING PROJECT
 
-This project deals with creation of certain notes from a book
+This project deals with the creation of certain notes from a book.
 
-This project involves one of the research work of creating a project that deals with the creation of visually interactive graphs when we pass that module any kind of notebook of any kind of image file you just need to specify the type of image you need to pass on to that document and it will do all the hard work for you by itself by creating of certain nodes with the help of one of the most advanced library of python for desktop creation using tkinter
+This project involves one of the research work of creating a project that deals with the creation of visually interactive graphs when we pass that module any kind of notebook of any kind of image file you just need to specify the type of image you need to pass on to that document and it will do all the hard work for you by itself by creating of certain nodes with the help of one of the most advanced library of python for desktop creation using Tkinter.
 
 This project uses the help of certain great libraries of python:-
 * Tkinter
@@ -18,7 +18,7 @@ This project uses the help of certain great libraries of python:-
 * PypDF2
 * Translator
 
-You can enjoy certain features of these vast set of features by just passing the module with the required image or pdf file and then by passing the image it will draw the graph for you and then after that we can also translate that in any other language for active understanding of that project
+You can enjoy certain features of these vast set of features by just passing the module with the required image or pdf file and then by passing the image it will draw the graph for you and then after that we can also translate that in any other language for active understanding of that project.
 
 ### Run
 
@@ -48,11 +48,11 @@ Example:-
 
 ### After running the code 
 
-*You will be prompted to whether you want to translate the text and the language you want to translate the text*
+*You will be prompted to whether you want to translate the text and the language you want to translate the text.*
 
 For default language you can use :- Hindi/English
 
-*You will see the image that you are preforming the required operations. After that image is being displayed you just need to type any key to follow up further*
+*You will see the image that you are preforming the required operations. After that image is being displayed you just need to type any key to follow up further.*
 
 ### After successful implementation you will see
 
@@ -72,7 +72,7 @@ For default language you can use :- Hindi/English
  
 ![Text Gen](./Images/text_gen.png?raw=true "text")
 
-### So Buckle Up Guys Your Notes For Exams Are ready 
+### So Buckle Up Guys Your Notes For Exams Are ready !!
 
 
 
