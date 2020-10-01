@@ -19,7 +19,7 @@ This project uses the help of certain great libraries of python:-
 * Translator
 
 You can enjoy certain features of these vast set of features by just passing the module with the required image or pdf file and then by passing the image it will draw the graph for you and then after that we can also translate that in any other language for active understanding of that project.
-
+This also introduce you to the concept of NLP which aims to understand the semantics from the text and the create a short prescribed format in order to create a summary of the document into a simple graphical structure.
 ### Run
 
 Download or Clone the repository
