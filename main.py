@@ -42,7 +42,10 @@ class NotesCreator:
             self.pdfnotes()
     
     def pngnotes(self):
-        
+        """
+	Convert png files to notes this function extracts text from images using Pytesseract.
+	By this we aims to create a graph and then use that graph to construct the insights.
+	"""
         if self.p[1]=='.png':
             
             img=cv2.imread(self.file_name)
@@ -87,6 +90,10 @@ class NotesCreator:
             #print(paragraph)
     
     def pdfnotes(self):
+	"""
+	Extract text from pdf file and then aims to construct a tree structure of semantics which can be used to 
+	create notes from the pdf file.
+	"""
         if self.p[1]==".pdf":
             pdfFileObject = open('/home/shashank/Downloads/'+self.file_name, 'rb')
             pdfReader = PyPDF2.PdfFileReader(pdfFileObject)
